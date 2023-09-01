@@ -8,7 +8,10 @@
 }
 
 .experiencia .subtitulo{
-    color: #141414;
+    background-image: linear-gradient(to bottom, #000000, #961717);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
 }
 
 .experiencia-texto{
