@@ -4,45 +4,82 @@
 
 .footer-container{
     max-width: 1200px;
-    padding: 120px 20px 60px 20px;
+    padding: 120px 60px 60px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 100px;
+    grid-template-columns: 1fr;
+    gap: 50px;
     align-items: center;
 }
 
+.footer-container .subtitulo{
+    background-image: linear-gradient(to bottom, #961717, #ee5d5d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
 .footer-texto{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.33;
     color: #ccc;
 }
 
-.footer-contato li{
-    font-weight: bold;
-    font-size: 2.25rem;
-    line-height: 1.1;
-    color: #fff;
-    margin-bottom: 30px;
+.lista-contatos{
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 0px;
 }
 
-.footer-contato li a{
-    color: #fff;
+.lista-contatos img{
+    width: 20px;
+    margin-right: 5px;
 }
+
+.lista-contatos a{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #961717;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom, #000000, #961717);
+    background-clip: text;
+    color: white;
+    width: 120px;
+}
+
 
 .footer-copy{
-    grid-template-columns: 1 / -1;
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: #8f8f8f;
+    text-align: center;
 }
 
-@media (max-width: 800px){
-    .footer-container{
-        grid-template-columns: 1fr;
-        gap: 40px ;
+@media (max-width: 500px){
+    .footer-texto{
+        font-size: 1rem;
     }
 
-    .footer-contato li {
-        font-size: 1.5rem;
+    .lista-contatos{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .lista-contatos a{
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+        border: 1px solid #961717;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 1rem;
+        background-image: linear-gradient(to bottom, #000000, #961717);
+        background-clip: text;
+        color: white;
+        width: 200px;
     }
 }

@@ -94,7 +94,7 @@
 }
 
 .conteudo-projeto h4{
-    margin: 10px 0px;
+    margin-top: 20px;
 }
 
 .tecnologias-img{
@@ -130,7 +130,6 @@
     border: 1px solid #961717;
     border-radius: 4px;
     text-decoration: none;
-    font-size: 1rem;
     background-image: linear-gradient(to bottom, #000000, #961717);
     background-clip: text;
     color: white;
@@ -145,13 +144,44 @@
         gap: 40px;
     }
 
+    .faculdade{
+        grid-template-columns: 1fr;
+    }
+
     .formacao .subtitulo{
         color: #ffffff;
     }
 
     .formacao-texto{
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
+}
 
+@media (max-width:600px) {
+    .faculdade-curso{
+        font-size: 1.5rem;
+    }
+
+    .faculdade-instituicao{
+        font-size: 0.9rem;
+    }
+
+    .faculdade-curso h4{
+        font-size: 1rem;
+    }
+
+    .tecnologias-img img{
+        width: 30px;
+    }
+
+    .btns a{
+        font-size: 0.8rem;
+        width: 90px;
+    }
+
+    .btns img{
+        width: 15px;
+        margin-right: 5px;
+    }
 }
