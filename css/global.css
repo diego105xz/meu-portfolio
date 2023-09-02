@@ -6,7 +6,7 @@ body{
 }
 
 /* Reset configurações das tags */
-h1,h2,h3,p{
+h1,h2,h3, h4, p{
     margin: 0px;
 }
 
@@ -23,11 +23,11 @@ img{
 }
 
 .subtitulo{
-    font-size: 8rem;
-    line-height: 1;
+    font-size: 4rem;
     text-transform: uppercase;
-    word-break: break-all;
-    max-width: 4ch;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 @media (max-width: 800px) {
