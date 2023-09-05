@@ -83,6 +83,7 @@
     left: -20px;
 }
 
+
 .faculdade-instituicao{
     font-size: 1.125rem;
     color: #a3a3a3;
@@ -90,11 +91,12 @@
 
 .conteudo-projeto{
     display: grid;
-
 }
+
 
 .conteudo-projeto h4{
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .tecnologias-img{
@@ -155,11 +157,16 @@
 
     .formacao-texto{
         font-size: 1rem;
+        margin-bottom: 20px;
     }
 
 }
 
 @media (max-width:600px) {
+    .faculdade {
+        padding: 20px;
+    }
+
     .faculdade-curso{
         font-size: 1.5rem;
     }

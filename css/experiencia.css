@@ -4,7 +4,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .experiencia .subtitulo{
@@ -13,6 +13,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
     padding: 20px;
+}
+
+.experiencia .formacao-texto{
+    color: #525252;
+}
+
+.experiencia .formacao-texto span{
+    font-weight: bold;
 }
 
 .empresas{
@@ -88,7 +96,7 @@
 
 @media (max-width: 800px) {
     .experiencia{
-        gap: 40px;
+        gap: 10px;
         padding: 40px 20px;
     }
 
