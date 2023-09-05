@@ -3,7 +3,9 @@
     box-sizing: border-box;
     width: 100%;
 }
-
+.marca-a{
+    text-decoration: none;
+}
 
 .header nav{
     display: flex;
