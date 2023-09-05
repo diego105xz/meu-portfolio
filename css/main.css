@@ -63,6 +63,13 @@
 }
 
 
+.lista-redes a:hover{
+    background-image: linear-gradient(to bottom, #5f0404, #f10303);
+    background-clip: text;
+    color: white;
+}
+
+
 @media (max-width: 1000px){
     .introducao h1 {
         font-size: 3rem;
