@@ -134,7 +134,6 @@
     border-radius: 4px;
     text-decoration: none;
     background-image: linear-gradient(to bottom, #000000, #961717);
-    background-clip: text;
     color: white;
     width: 120px;
 }
@@ -142,7 +141,6 @@
 
 .btns a:hover{
     background-image: linear-gradient(to bottom, #5f0404, #f10303);
-    background-clip: text;
     color: white;
 }
 

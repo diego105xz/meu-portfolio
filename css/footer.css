@@ -47,14 +47,12 @@
     text-decoration: none;
     font-size: 1rem;
     background-image: linear-gradient(to bottom, #000000, #961717);
-    background-clip: text;
     color: white;
     width: 120px;
 }
 
 .lista-contatos a:hover{
     background-image: linear-gradient(to bottom, #5f0404, #f10303);
-    background-clip: text;
     color: white;
 }
 
